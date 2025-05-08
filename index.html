@@ -1,1 +1,576 @@
-// test
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>GreenNest - Smart Garden Management</title>
+      <link rel="stylesheet" href="styles.css">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Header/Navigation -->
+      <header>
+         <div class="container">
+            <nav>
+               <div class="logo">GreenNest</div>
+               <ul class="nav-links">
+                  <li><a href="#hero">Home</a></li>
+                  <li><a href="#features">Features</a></li>
+                  <li><a href="#dashboard">Dashboard</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#contact">Contact</a></li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <div class="background"></div>
+      <!-- Hero Section -->
+      <section id="hero">
+         <div class="container">
+            <h1>Simplify Your <text>Gardening</text></h1>
+            <p>Smart garden management made easy. Track plants, automate schedules, and grow with confidence.</p>
+            <a href="#features" class="button">
+               <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                  <!-- Circle background -->
+                  <circle cx="24" cy="24" r="22" stroke="black" stroke-width="2" fill="none"/>
+                  
+                  <!-- Arrow (lines) -->
+                  <path d="M24 16V32M24 32L18 26M24 32L30 26" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                
+             </a>
+         </div>
+      </section>
+      <!-- Features Section -->
+      <section id="features">
+         <div class="container">
+            <h2 class="section-title">Everything You Need to Grow</h2>
+            <p class="section-subtitle">Powerful features to help you manage your garden like a pro.</p>
+            <div class="features-grid">
+               <div class="feature-card">
+                  <h3>Plant Tracking</h3>
+                  <p>Keep detailed records of all your plants, including growth stages and care history.</p>
+               </div>
+               <div class="feature-card">
+                  <h3>Pest Control Alerts</h3>
+                  <p>Early warning system for potential pest issues and treatment recommendations.</p>
+               </div>
+               <div class="feature-card">
+                  <h3>Light Monitoring</h3>
+                  <p>Track sunlight exposure and get positioning recommendations for optimal growth.</p>
+               </div>
+               <div class="feature-card">
+                  <h3>Watering Schedule</h3>
+                  <p>Automated watering reminders based on each plant's specific needs and local weather.</p>
+               </div>
+               <div class="feature-card">
+                  <h3>Seasonal Care Tips</h3>
+                  <p>Customized care instructions based on your plants and current season.</p>
+               </div>
+               <div class="feature-card">
+                  <h3>Smart Notifications</h3>
+                  <p>Timely reminders for all your gardening tasks and plant care needs.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Dashboard Section -->
+      <section id="dashboard">
+         <div class="container">
+            <h2 class="section-title">Smart Dashboard for Smart Gardening</h2>
+            <p class="section-subtitle">Monitor and manage your garden with our intuitive dashboard.</p>
+            <div class="dashboard">
+            <div class="dashboard-header">
+              <div class="window-controls">
+                <span class="dots dot-red">●</span>
+                <span class="dots dot-yellow">●</span>
+                <span class="dots dot-green">●</span>
+              </div>
+              <h3>GreenNest Dashboard</h3>
+            </div>
+         
+            <div class="dashboard-content">
+               <section class="overview">
+                  <section class="week-overview">
+                        <div class="overview-header">
+                           <h2>Weekly Overview</h2>
+                           <span class="calendar-icon">📅</span>
+                        </div>
+                     <div class="overview-chart"></div>
+                  </section>
+                  <section class="details">
+                     <div class="stats">
+                        <div class="card weather">
+                           <p class="value">24°C</p>
+                           <p class="label">Partly Cloudy</p>
+                           <span class="sub-label">Weather</span>
+                        </div>
+                        <div class="card moisture">
+                           <p class="value">68%</p>
+                           <p class="label">Moisture</p>
+                           <span class="sub-label">Soil</span>
+                        </div>
+                        <div class="card plants">
+                           <p class="value">12</p>
+                           <p class="label">Total Plants</p>
+                           <span class="sub-label">Plants</span>
+                        </div>
+                     </div>
+                  </section>
+               </section>
+           
+              <section class="tasks">
+                <h2>Upcoming Tasks</h2>
+                <ul>
+                  <li><span class="dots dot-green">●</span> Water Tomatoes</li>
+                  <li><span class="dots dot-green">●</span> Water Tomatoes</li>
+                  <li><span class="dots dot-green">●</span> Water Tomatoes</li>
+                </ul>
+              </section>
+            </div>
+            </div>
+         </div>
+      </section>
+      <!-- About Section -->
+      <section id="about">
+         <div class="container">
+            <div class="about-content">
+               <div class="about-text">
+                  <h2>Our Story</h2>
+                  <p>GreenNest was born from a simple idea: to make garden management accessible and enjoyable for everyone. Whether you're a seasoned gardener or just starting out, our platform provides the tools you need to help your garden thrive.</p>
+                  <p>We combine technology with horticultural expertise to create an intuitive system that helps you track, maintain, and grow your garden with confidence.</p>
+               </div>
+               <div class="values">
+                  <div class="value-item">
+                     <h3>Passion for Nature</h3>
+                     <p>We believe in nurturing the connection between people and plants.</p>
+                  </div>
+                  <div class="value-item">
+                     <h3>Community Driven</h3>
+                     <p>Built with input from gardeners of all experience levels.</p>
+                  </div>
+                  <div class="value-item">
+                     <h3>Simple Solutions</h3>
+                     <p>Making garden management accessible and enjoyable for everyone.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Contact Section -->
+      <section id="contact">
+         <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Have questions about GreenNest? We're here to help.</p>
+            <div class="contact-grid">
+               <div class="contact-info">
+                  <h3>Visit Us</h3>
+                  <p>123 Garden Street<br>Green Valley, GV 12345</p>
+                  <h3>Call Us</h3>
+                  <p>+1 (555) 123-4567</p>
+                  <h3>Email Us</h3>
+                  <p>hello@greennest.com</p>
+               </div>
+               <div class="contact-form">
+                  <form>
+                     <input type="text" placeholder="Your name">
+                     <input type="email" placeholder="your@email.com">
+                     <textarea placeholder="Your message"></textarea>
+                     <button type="submit">Send Message</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+         <div class="container">
+            <div class="footer-content">
+               <div class="footer-about">
+                  <div class="footer-logo">GreenNest</div>
+                  <p>Simplifying garden management with smart technology. Join us in making gardening more accessible and enjoyable for everyone.</p>
+               </div>
+               <div class="footer-links">
+                  <h3>Quick Links</h3>
+                  <ul>
+                     <li><a href="#">Features</a></li>
+                     <li><a href="#">About Us</a></li>
+                     <li><a href="#">Contact</a></li>
+                     <li><a href="#">Privacy Policy</a></li>
+                  </ul>
+               </div>
+               <div class="footer-links">
+                  <h3>Contact</h3>
+                  <ul>
+                     <li>123 Garden Street</li>
+                     <li>Green Valley, GV 12345</li>
+                     <li>hello@greennest.com</li>
+                     <li>+1 (555) 123-4567</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="copyright">
+               <p>&copy; 2025 GreenNest. All rights reserved.</p>
+            </div>
+         </div>
+      </footer>
+      <style>
+         /* General Styles */
+         body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+         }
+         .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+         }
+         /* Header Styles */
+         header {
+            position: fixed;
+            width: 100vw;
+            background-color: #f8f9fa;
+            padding: 2px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            z-index: 5;
+         }
+         nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+         }
+         .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2e7d32;
+         }
+         .nav-links {
+            display: flex;
+            list-style: none;
+         }
+         .nav-links li {
+            margin-left: 20px;
+         }
+         .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+         }
+         .nav-links a:hover {
+            color: #2e7d32;
+         }
+         /* Hero Section */
+         .background{
+            background-image: url(resource/main/male-hands-cutting-bushes-with-big-scissors.jpg);
+            background-size: cover;
+         }
+         #hero {
+            padding:60px 0;
+            text-align: center;
+         }
+         #hero .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;  /* horizontal */
+            align-items: center;      /* vertical */
+            min-height: 85dvh;
+         }
+         #hero h1 {
+            font-size: 4.8rem;
+            margin-bottom: 2px;
+         }
+         #hero text{
+            color: #2e7d32;
+         }
+         #hero p {
+            font-size: 1.5rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+         }
+         #hero .button{
+            margin-top: 80px;
+            animation: bottom 2s infinite;
+            animation-play-state: running;
+         }
+         #hero .button:hover{
+            animation-play-state: paused;
+         }
+         @keyframes bottom {
+             0% {
+                 transform: translateY(0);
+             }
+             50% {
+                 transform: translateY(10px);
+             }
+             100% {
+                 transform: translateY(0);
+             }
+         }
+         /* Features Section */
+         #features {
+            min-height: 85dvh;
+            padding: 60px 0;
+         }
+         .section-title {
+            padding-top: 20px;
+            text-align: center;
+            font-size: 2rem;
+            color: #2e7d32;
+            margin-bottom: 1px;
+         }
+         .section-subtitle{
+            text-align: center;
+            font-size: 1rem;
+            margin-bottom: 50px;
+         }
+         .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+         }
+         .feature-card {
+            background-color: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+         }
+         .feature-card:hover {
+            transform: translateY(-5px);
+         }
+         .feature-card h3 {
+            color: #2e7d32;
+            margin-bottom: 15px;
+         }
+         /* Dashboard Section */
+
+         #dashboard{
+            min-height: 85dvh;
+            padding: 60px 0;
+         }
+         #dashboard .dashboard{
+            max-width: 1150px;
+           margin: 20px auto;
+           background: #fff;
+           border-radius: 16px;
+           box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+         }
+
+         .dashboard-header {
+           background-color: #059669;
+           padding: 0 20px;
+           color: white;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           border-radius: 12px 12px 0 0;
+         }
+         .dashboard h2{
+            margin: 0 auto;
+         }
+         .dashboard-header h3{
+            font-size: 14px;
+            color: #e7e4e4;
+         }
+         .window-controls .dots{
+            font-size: 30px;
+         }
+
+         .dot-red { color: #f87171; }
+         .dot-yellow { color: #fbbf24; }
+         .dot-green { color: #34d399; }
+
+         .dashboard-content {
+           display: flex;
+           flex-wrap: wrap;
+           padding: 20px;
+           gap: 20px;
+         }
+
+         .overview {
+           flex: 3;
+         }
+
+         .week-overview{
+           background: #f9fafb;
+           padding: 10px 20px 1px 20px;
+           border-radius: 12px;
+           margin-bottom: 10px;
+         }
+
+         .overview-header {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+         }
+
+         .overview-chart {
+           background: #d1fae5;
+           height: 160px;
+           border-radius: 10px;
+           margin: 10px 0 15px 0;
+         }
+
+         .stats {
+           display: flex;
+           gap: 15px;
+         }
+
+         .card {
+           background: #f9fafb;
+           padding: 15px;
+           border-radius: 10px;
+           flex: 1;
+           text-align: center;
+         }
+
+         .card .value {
+           font-size: 24px;
+           font-weight: bold;
+           margin: 0;
+         }
+
+         .card .label {
+           margin: 5px 0;
+         }
+
+         .card .sub-label {
+           color: #6b7280;
+           font-size: 14px;
+         }
+
+         .tasks {
+           flex: 1;
+           background: #f9fafb;
+           padding: 10px 20px 10px 20px;
+           border-radius: 12px;
+         }
+
+         .tasks ul {
+           list-style: none;
+           padding: 0;
+         }
+
+         .tasks li {
+           background: white;
+           box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+           padding: 10px 15px;
+           border-radius: 8px;
+           margin-bottom: 10px;
+           display: flex;
+           align-items: center;
+           gap: 10px;
+         }
+         
+         /* About Section */
+         #about {
+            padding: 60px 0;
+         }
+         .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+         }
+         .about-text h2 {
+            font-size: 2rem;
+            color: #2e7d32;
+            margin-bottom: 20px;
+         }
+         .values {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+         }
+         .value-item h3 {
+            color: #2e7d32;
+            margin-bottom: 10px;
+         }
+         /* Contact Section */
+         #contact {
+            background-color: #f8f9fa;
+            padding: 60px 0;
+         }
+         .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+         }
+         .contact-info h3 {
+            color: #2e7d32;
+            margin-bottom: 20px;
+         }
+         .contact-form input,
+         .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+         }
+         .contact-form button {
+            background-color: #2e7d32;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+         }
+         .contact-form button:hover {
+            background-color: #1b5e20;
+         }
+         /* Footer */
+         footer {
+            background-color: #2e7d32;
+            color: white;
+            padding: 40px 0 20px;
+         }
+         .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+         }
+         .footer-logo {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 15px;
+         }
+         .footer-links h3 {
+            margin-bottom: 15px;
+            font-size: 18px;
+         }
+         .footer-links ul {
+            list-style: none;
+            padding: 0;
+         }
+         .footer-links li {
+            margin-bottom: 8px;
+         }
+         .footer-links a {
+            color: white;
+            text-decoration: none;
+         }
+         .footer-links a:hover {
+            text-decoration: underline;
+         }
+         .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+         }
+         /* Responsive Adjustments */
+         @media (max-width: 768px) {
+            .about-content {
+               grid-template-columns: 1fr;
+            }
+            .nav-links {
+               display: none; /* Replace with mobile menu in actual implementation */
+            }
+         }
+      </style>
+   </body>
+</html>
